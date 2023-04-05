@@ -7,6 +7,12 @@ const Resultados = styled.div`
   align-items: center;
   gap: 1rem;
   margin-top: 30px;
+  flex-direction: column;
+  margin-bottom: 30px;
+  
+  @media only screen and (min-width: 450px) {
+  flex-direction: row;
+  }
 `;
 const Texto = styled.p`
   font-size: 16px;
