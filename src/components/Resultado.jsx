@@ -29,6 +29,7 @@ const Precio = styled.p`
 
 const Image = styled.img`
     display: block;
+    margin: auto;
     width: 120px;
 `
 
